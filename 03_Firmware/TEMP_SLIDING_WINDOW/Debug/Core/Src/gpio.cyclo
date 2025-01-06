@@ -1,0 +1,2 @@
+../Core/Src/gpio.c:41:6:MX_GPIO_Init	1
+../Core/Src/gpio.c:91:6:led_control	5

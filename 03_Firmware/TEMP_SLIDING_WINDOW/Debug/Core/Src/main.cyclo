@@ -1,0 +1,5 @@
+../Core/Src/main.c:59:6:OLED_UI_init	1
+../Core/Src/main.c:69:6:setup_all	2
+../Core/Src/main.c:99:5:main	1
+../Core/Src/main.c:163:6:SystemClock_Config	3
+../Core/Src/main.c:206:6:Error_Handler	1

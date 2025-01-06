@@ -1,0 +1,5 @@
+../Core/Src/main.c:59:6:OLED_UI_init	24	static
+../Core/Src/main.c:69:6:setup_all	16	static
+../Core/Src/main.c:99:5:main	8	static
+../Core/Src/main.c:163:6:SystemClock_Config	72	static
+../Core/Src/main.c:206:6:Error_Handler	4	static,ignoring_inline_asm
