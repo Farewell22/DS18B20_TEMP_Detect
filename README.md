@@ -10,15 +10,16 @@
 
 使用了滑动窗口滤波来对测温进行平滑处理，使用无源蜂鸣器和LED进行温度报警，OLED进行温度显示，按键进行温度阈值调整
 
-​![885a86f1e11f3c50bad5b7518a59aa7](assets/885a86f1e11f3c50bad5b7518a59aa7-20250106124034-vsncprh.jpg)​
+![885a86f1e11f3c50bad5b7518a59aa7](assets/885a86f1e11f3c50bad5b7518a59aa7-20250106124034-vsncprh.jpg)​
 
-​![f13f17b851d0fac9e4e3e4ea5f0245e](assets/f13f17b851d0fac9e4e3e4ea5f0245e-20250106124042-w64a8h0.jpg)​
+![f13f17b851d0fac9e4e3e4ea5f0245e](assets/f13f17b851d0fac9e4e3e4ea5f0245e-20250106124042-w64a8h0.jpg)​
 
 硬件上多飞了一个按键来进行阈值控制
 
 ‍
 
 # 开发环境
+<<<<<<< HEAD
 
 * STM32CUBEIDE/KEILV5
 * CUBEMX
@@ -44,3 +45,42 @@
 |   |\-- TEMP_averge  `# 时间均值滤波的固件版本`​  
 |-- LICENSE  
 -- README.md
+=======
+- STM32CUBEIDE/KEILV5
+- CUBEMX 
+# 文件目录
+|-- 00_Reference  #参考的开源组件 感谢 multitimer和multibutton @0xabin
+|   |-- MultiButton-master 
+|   |   `-- MultiButton-master
+|   `-- MultiTimer-main
+|       `-- MultiTimer-main
+|-- 01_Function_Map  # 功能描述图，有出入，没有实现菜单界面，后续考虑
+|  
+|   
+|-- 02_Hardware
+|   |-- 00_Ref
+|   |   |-- 00_HDK
+|   |   `-- SCH_Schematic1_1_2024-12-28.pdf  # 硬件原理图
+|   |-- 01_Project
+|   |   `-- ProProject_STM32F1_TEMP_2024-12-15.epro # 嘉立创工程
+|   `-- BOM_Board1_1_Schematic1_1_2024-12-06.xlsx  # bom表
+|-- 03_Firmware
+|   |-- TEMP_SLIDING_WINDOW   #温度检测 滑动窗口滤波版本
+|   |   |-- Core
+|   |   |-- Debug
+|   |   |-- Drivers
+|   |   |-- MDK-ARM
+|   |   |-- STM32F103C8TX_FLASH.ld
+|   |   |-- TEMP.ioc
+|   |   `-- TEMP.launch
+|   `-- TEMP_averge  # 温度检测 时间均值滤波版本
+|       |-- Core
+|       |-- Debug
+|       |-- Drivers
+|       |-- MDK-ARM
+|       |-- STM32F103C8TX_FLASH.ld
+|       |-- TEMP.ioc
+|       `-- TEMP.launch
+|-- LICENSE
+`-- README.md
+
